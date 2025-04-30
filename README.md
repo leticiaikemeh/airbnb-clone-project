@@ -11,6 +11,7 @@ The project will use Django and Django REST Framework to build the backend API, 
 ---
 
 **Team Roles**
+
 - Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.Back-end developers,. Experienced back-end developers also devise app architecture and implement the necessary integrations.
 - Database Administrator: Manages database design, indexing, and optimizations.
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
@@ -19,6 +20,7 @@ The project will use Django and Django REST Framework to build the backend API, 
 ---
 
 **Technology Stack**
+
 - Django: A high-level Python web framework used for building the RESTful API.
 - Django REST Framework: Provides tools for creating and managing RESTful APIs.
 - PostgreSQL: A powerful relational database used for data storage.
@@ -30,7 +32,8 @@ The project will use Django and Django REST Framework to build the backend API, 
 
 ---
 
-*Database Design*
+**Database Design**
+
 Key entities/tables of the database design include:
 1. Users: Stores information about users registered on the platform, including user ID, name, email, and password.
 - User → Properties One-to-Many: A single user (as a property owner) can list multiple properties.
@@ -50,6 +53,7 @@ Key entities/tables of the database design include:
 ---
 
 **Feature Breakdown**
+
 1. **User Management**: This feature ensures that users can securely register, log in, and manage their profiles. It handles authentication and access control, forming the foundation for personalizing user experiences across the platform.
 2. **Property Management**: Enables property owners to create, update, and manage listings. It provides essential data like descriptions, images, pricing, and location, making it easy for users to browse and compare options.
 3. **Booking System**: Facilitates property reservations by allowing users to select dates, check availability, and confirm bookings. It also manages booking records and ensures accurate scheduling to prevent conflicts.
@@ -60,6 +64,7 @@ Key entities/tables of the database design include:
 ---
 
 **API Security**
+
 The following Key Security Measures are implemented:
 
 1. **Authentication & Authorization**:
@@ -91,6 +96,7 @@ Security is foundational to building user trust, ensuring compliance, and mainta
 ---
 
 **CI/CD Pipeline**
+
 CI/CD pipelines (Continuous Integration/Continuous Deployment) are automated workflows that streamline the process of building, testing, and deploying code changes. They ensure that updates to the application are reliably tested and deployed with minimal manual effort.
 For this project, CI/CD is important because it helps maintain code quality, reduces the risk of bugs in production, and accelerates the development cycle—critical for a secure, scalable platform like an Airbnb clone.
 **Tools that can be used include**:
